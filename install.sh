@@ -78,7 +78,7 @@ install_from_bin_package() {
     else
         VERSION_TO_INSTALL=$VERSION_ARG
     fi
-	VERSION_TO_INSTALL="15.2"
+	VERSION_TO_INSTALL="0.15.2"
     if [ "$VERSION_TO_INSTALL" = "$LATEST_VERSION" ]; then
         LATEST_VERSION_MESSAGE="latest"
     else
